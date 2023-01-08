@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&family=Sigmar+One&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#background {
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #3D087B;
+
+}
+
+#clock-pic {
+    display: flex;
+}
+
+#clock-pic img {
+
+    margin: 40px 200px;
+}
+
+#layer1 {
+    width: 260px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    right: 247px;
+    top: 106px;
+    border-radius: 10px;
+    opacity: 22%;
+}
+
+#layer2 {
+    width: 332px;
+    height: 50px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 210px;
+    top: 95px;
+    border-radius: 10px;
+    opacity: 79%;
+    border: 1px solid #EDEDED
+}
+
+#layer3 {
+    width: 450px;
+    height: 90px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 148px;
+    top: 43px;
+    border-radius: 10px;
+    border: 1px solid #e2e0e0;
+}
+
+#layer3 #sr-layer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9px auto;
+}
+
+.jr-layer {
+    color: #3D087B;
+    font-family: 'Monda', sans-serif;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+.jr-layer1 {
+    width: 70px;
+    height: 70px;
+    background-color: #F6E2FF;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+
+.jr-layer2 {
+    width: 70px;
+    height: 70px;
+    background-color: #F6E2FF;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+
+.jr-layer3 {
+    width: 70px;
+    height: 70px;
+    background-color: #F6E2FF;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+
+.jr-layer4 {
+    width: 70px;
+    height: 70px;
+    background-image: url(./large.svg);
+    border-radius: 6px;
+    margin: 0 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jr-layer1 #text1 {
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-size: 26px;
+   padding: 4px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #3D087B;
+}
+
+.jr-layer2 #text2 {
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-size: 25px;
+    padding-top: 5px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #3D087B;
+}
+
+.jr-layer3 #text3 {
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-size: 25px;
+    padding-top: 5px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #3D087B;
+}
+
+.jr-layer4 #text4 {
+    text-align: center;
+    font-family: 'Monda', sans-serif;
+    font-size: 30px;
+    padding-top: 10px;
+    color: white;
+}
+
+#sr-layer p {
+    font-size: 35px;
+}
+
+#next-container {
+    width: 450px;
+    height: 90px;
+    background-color: #FFFFFF;
+    position: absolute;
+    right: 148px;
+    top: 170px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Sigmar One', cursive;
+    color: #8E53F0;
+
+}
+
+#next-container h2 {
+    padding-top: 30px;
+}
+
+#back-container {
+    width: 450px;
+    height: 300px;
+    background-image: url(/def.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 148px;
+    bottom: 20px;
+    border-radius: 10px;
+   
+}
+
+#wraper {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 230px;
+    background-color: white;
+    position: absolute;
+    top: 130px;
+    left: 210px;
+    border-radius: 10px;
+}
+
+.clock {
+    width: 180px;
+    height: 30px;
+    margin: 15px;
+    margin-left: 250px;
+    padding-left: 9px;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px gray;
+}
+.clock1 {
+    width: 180px;
+    height: 30px;
+    margin: 15px;
+    margin-left: 250px;
+    padding-left: 9px;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px gray;
+}
+.clock2 {
+    width: 180px;
+    height: 30px;
+    margin: 15px;
+    margin-left: 250px;
+    padding-left: 9px;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px gray;
+}
+.clock3 {
+    width: 180px;
+    height: 30px;
+    margin: 15px;
+    margin-left: 250px;
+    padding-left: 9px;
+    background-color: white;
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px gray;
+}
+
+
+.pic {
+    background-color: white;
+    width: 30px;
+    height: 26px;
+    margin-top: 29px;
+    position: relative;
+    top: -38px;
+    left: 220px;
+}
+
+.one {
+    background-image: url(./wake.svg);
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.two {
+    background-image: url(./lunch.svg);
+    background-size: cover;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.three {
+    background-image: url(./nap.svg);
+    background-size: cover;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+.four {
+    background-image: url(./cc.png);
+    background-size: cover;
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+
+}
+
+#line {
+    width: 0px;
+    height: 20px;
+    border: 1px solid #C2C2C2;
+    position: absolute;
+    left: 235px;
+    top: 180px;
+    opacity: 1;
+}
+
+#line2 {
+    width: 0px;
+    height: 20px;
+    border: 1px solid #C2C2C2;
+    position: absolute;
+    left: 235px;
+    top: 235px;
+    opacity: 1;
+}
+
+#line3 {
+    width: 0px;
+    height: 20px;
+    border: 1px solid #C2C2C2;
+    position: absolute;
+    left: 235px;
+    top: 290px;
+    opacity: 1;
+}
+
+.clock-text {
+    position: absolute;
+    top: 150px;
+    left: 270px;
+}
+
+.clock-text1 {
+    position: absolute;
+    left: 270px;
+    top: 210px;
+}
+
+.clock-text2 {
+    position: absolute;
+    left: 270px;
+    top: 265px;
+}
+
+.clock-text3 {
+    position: absolute;
+    left: 270px;
+    top: 320px;
+}
+
+#another-rectangle {
+    width: 450px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    position: relative;
+    left: 210px;
+    top: -7px;
+    opacity: 25%;
+}
+
+#drive {
+    font-family: 'Sigmar One', cursive;
+    color: white;
+    position: absolute;
+    left: 240px;
+    top: 385px;
+    font-size: large;
+}
+
+#another-square {
+    width: 200px;
+    height: 110px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 460px;
+    opacity: 25%;
+}
+
+.vvvv {
+    font-size: 10px;
+    position: absolute;
+    left: 470px;
+    top: 445px;
+    color: #F25CFE;
+    font-family: 'Monda', sans-serif;
+    line-height: 24px;
+}
+
+#splitSquare {
+    width: 230px;
+    height: 35px;
+    background-image: linear-gradient(to left, #F1A7C5, #FC5EFF, #CB52F8, #6E54EC);
+    position: relative;
+    left: 210px;
+    top: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 4px;
+    color: white;
+    cursor: pointer;
+    border-color: #da9f9f;
+    animation: setu1 infinite ease 3s;
+}
+@keyframes setu1{
+   25%{
+        color:#f7f4f4;
+        background-image: linear-gradient(to left,#FC5EFF, #CB52F8, #6E54EC);
+    }
+   50%{
+        color: rgb(7, 7, 7);
+        background-image: linear-gradient(to left,#c975ca, #CB52F8, #6E54EC);
+    }
+   75%{
+        color: rgb(247, 250, 251);
+        background-image: linear-gradient(to left,#FC5EFF, #CB52F8, #6E54EC);
+    }
+    
+   100%{
+        color: rgb(12, 11, 11);
+        background-image: linear-gradient(to left,#FC5EFF, #CB52F8, #6E54EC);
+    }   
+}
+#splitSquare:hover h3 {
+    display: none
+  }
+  
+  #splitSquare:hover:before {
+    content: "Party time!"
+  }
+  #splitSquare:hover:before{
+    font-size: 20px;
+    font-weight: bold;}
+ 
+    @media screen and (min-width:500px) and (max-width:1000px){
+            #clock-pic img{
+                margin-left: 10px;
+                
+            }
+    }

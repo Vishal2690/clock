@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="background">
+        <div id="clock-pic"><img src="./clock.png"></div>
+
+
+        <div id="layer1"></div>
+        <div id="layer2"></div>
+        <div id="layer3">
+            <div id="sr-layer">
+                <div class="jr-layer">Time</div>
+                <div class="jr-layer1">
+                    <div id="text1">10 hr</div>
+                </div>
+                <p>:</p>
+                <div class="jr-layer2">
+                    <div id="text2">40 min</div>
+                </div>
+                <p>:</p>
+                <div class="jr-layer3">
+                    <div id="text3">00 sec</div>
+                </div>
+
+                <div class="jr-layer4">
+                    <div id="text4"></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="next-container">
+            <h2 id="next"></h2>
+        </div>
+        <div id="back-container"></div>
+
+        <div id="wraper">
+            <select class="clock" name="weak" id="mornings">
+                <option value="">Select Time</option>
+                <option value="6" class="op1">6 AM - 7 AM</option>
+                <option value="7" class="op1">7 AM - 8 AM</option>
+                <option value="8" class="op1">8 AM - 9 AM</option>
+                <option value="9" class="op1">9 AM - 10 AM</option>
+                <option value="10" class="op1">10 AM - 11 AM</option>
+                <option value="11" class="op1">11 AM - 12 PM</option>
+                <option value="12" class="op1">12 PM - 1 PM</option>
+                <option value="13" class="op1">1 PM - 2 PM</option>
+                <option value="14" class="op1">2 PM - 3 PM</option>
+                <option value="15" class="op1">3 PM - 4 PM</option>
+                <option value="16" class="op1">4 PM - 5 PM</option>
+                <option value="17" class="op1">5 PM - 6 PM</option>
+                <option value="18" class="op1">6 PM - 7 PM</option>
+                <option value="19" class="op1">7 PM - 8 PM</option>
+                <option value="20" class="op1">8 PM - 9 PM</option>
+                <option value="21" class="op1">9 PM - 10 PM</option>
+                <option value="22" class="op1">10 PM - 11 PM</option>
+                <option value="23" class="op1">11 PM - 12 AM</option>
+                <option value="24" class="op1">12 AM - 1 AM</option>
+                <option value="1" class="op1">1 AM - 2 AM</option>
+                <option value="2" class="op1">2 AM - 3 AM</option>
+                <option value="3" class="op1">3 AM - 4 AM</option>
+                <option value="4" class="op1">4 AM - 5 AM</option>
+                <option value="5" class="op1">5 AM - 6 AM</option>
+
+
+            </select>
+            <select class="clock1" name="after" id="afternons">
+                <option value="">Select Time</option>
+                <option value="6" class="op1">6 AM - 7 AM</option>
+                <option value="7" class="op1">7 AM - 8 AM</option>
+                <option value="8" class="op1">8 AM - 9 AM</option>
+                <option value="9" class="op1">9 AM - 10 AM</option>
+                <option value="10" class="op1">10 AM - 11 AM</option>
+                <option value="11" class="op1">11 AM - 12 PM</option>
+                <option value="12" class="op1">12 PM - 1 PM</option>
+                <option value="13" class="op1">1 PM - 2 PM</option>
+                <option value="14" class="op1">2 PM - 3 PM</option>
+                <option value="15" class="op1">3 PM - 4 PM</option>
+                <option value="16" class="op1">4 PM - 5 PM</option>
+                <option value="17" class="op1">5 PM - 6 PM</option>
+                <option value="18" class="op1">6 PM - 7 PM</option>
+                <option value="19" class="op1">7 PM - 8 PM</option>
+                <option value="20" class="op1">8 PM - 9 PM</option>
+                <option value="21" class="op1">9 PM - 10 PM</option>
+                <option value="22" class="op1">10 PM - 11 PM</option>
+                <option value="23" class="op1">11 PM - 12 AM</option>
+                <option value="24" class="op1">12 AM - 1 AM</option>
+                <option value="1" class="op1">1 AM - 2 AM</option>
+                <option value="2" class="op1">2 AM - 3 AM</option>
+                <option value="3" class="op1">3 AM - 4 AM</option>
+                <option value="4" class="op1">4 AM - 5 AM</option>
+                <option value="5" class="op1">5 AM - 6 AM</option>
+
+
+
+            </select>
+            <select class="clock2" name="before" id="evenings">
+                <option value="">Select Time</option>
+                <option value="6" class="op1">6 AM - 7 AM</option>
+                <option value="7" class="op1">7 AM - 8 AM</option>
+                <option value="8" class="op1">8 AM - 9 AM</option>
+                <option value="9" class="op1">9 AM - 10 AM</option>
+                <option value="10" class="op1">10 AM - 11 AM</option>
+                <option value="11" class="op1">11 AM - 12 PM</option>
+                <option value="12" class="op1">12 PM - 1 PM</option>
+                <option value="13" class="op1">1 PM - 2 PM</option>
+                <option value="14" class="op1">2 PM - 3 PM</option>
+                <option value="15" class="op1">3 PM - 4 PM</option>
+                <option value="16" class="op1">4 PM - 5 PM</option>
+                <option value="17" class="op1">5 PM - 6 PM</option>
+                <option value="18" class="op1">6 PM - 7 PM</option>
+                <option value="19" class="op1">7 PM - 8 PM</option>
+                <option value="20" class="op1">8 PM - 9 PM</option>
+                <option value="21" class="op1">9 PM - 10 PM</option>
+                <option value="22" class="op1">10 PM - 11 PM</option>
+                <option value="23" class="op1">11 PM - 12 AM</option>
+                <option value="24" class="op1">12 AM - 1 AM</option>
+                <option value="1" class="op1">1 AM - 2 AM</option>
+                <option value="2" class="op1">2 AM - 3 AM</option>
+                <option value="3" class="op1">3 AM - 4 AM</option>
+                <option value="4" class="op1">4 AM - 5 AM</option>
+                <option value="5" class="op1">5 AM - 6 AM</option>
+
+
+            </select>
+            <select class="clock3" name="letter" id="nights">
+                <option value="">Select Time</option>
+                <option value="6" class="op1">6 AM - 7 AM</option>
+                <option value="7" class="op1">7 AM - 8 AM</option>
+                <option value="8" class="op1">8 AM - 9 AM</option>
+                <option value="9" class="op1">9 AM - 10 AM</option>
+                <option value="10" class="op1">10 AM - 11 AM</option>
+                <option value="11" class="op1">11 AM - 12 PM</option>
+                <option value="12" class="op1">12 PM - 1 PM</option>
+                <option value="13" class="op1">1 PM - 2 PM</option>
+                <option value="14" class="op1">2 PM - 3 PM</option>
+                <option value="15" class="op1">3 PM - 4 PM</option>
+                <option value="16" class="op1">4 PM - 5 PM</option>
+                <option value="17" class="op1">5 PM - 6 PM</option>
+                <option value="18" class="op1">6 PM - 7 PM</option>
+                <option value="19" class="op1">7 PM - 8 PM</option>
+                <option value="20" class="op1">8 PM - 9 PM</option>
+                <option value="21" class="op1">9 PM - 10 PM</option>
+                <option value="22" class="op1">10 PM - 11 PM</option>
+                <option value="23" class="op1">11 PM - 12 AM</option>
+                <option value="24" class="op1">12 AM - 1 AM</option>
+                <option value="1" class="op1">1 AM - 2 AM</option>
+                <option value="2" class="op1">2 AM - 3 AM</option>
+                <option value="3" class="op1">3 AM - 4 AM</option>
+                <option value="4" class="op1">4 AM - 5 AM</option>
+                <option value="5" class="op1">5 AM - 6 AM</option>
+
+            </select>
+        </div>
+
+        <div id="line"></div>
+        <div id="line2"></div>
+        <div id="line3"></div>
+        <div class="pic one"></div>
+        <div class="pic two"></div>
+        <div class="pic three"></div>
+        <div class="pic four"></div>
+        <p class="clock-text">Set wake up time</p>
+        <p class="clock-text1">Set lunch time</p>
+        <p class="clock-text2">Set nap time</p>
+        <p class="clock-text3">Set night time</p>
+
+
+        <div id="another-rectangle"></div>
+        <p id="drive">ALL IS WELL!!</p>
+        <div id="another-square"></div>
+
+        <div id="splitSquare" onclick="addTime()">
+            <h3 id="cirl">Set Alarm</h3>
+        </div>
+
+        <div class="vvvv">
+            Wake Up Time : <span id="set1"></span> <br>
+            Lunch Time : <span id="set2"></span> <br>
+            Nap Time : <span id="set3"></span><br>
+            Night Time : <span id="set4"></span><br>
+        </div>
+        <script src="/index.js"></script>
+</body>
+
+</html>
