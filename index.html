@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Digital_Clock</title>
     <link rel="stylesheet" href="index.css">
 </head>
 
@@ -63,7 +63,7 @@
                 <option value="21" class="op1">9 PM - 10 PM</option>
                 <option value="22" class="op1">10 PM - 11 PM</option>
                 <option value="23" class="op1">11 PM - 12 AM</option>
-                <option value="24" class="op1">12 AM - 1 AM</option>
+                <option value="0" class="op1">12 AM - 1 AM</option>
                 <option value="1" class="op1">1 AM - 2 AM</option>
                 <option value="2" class="op1">2 AM - 3 AM</option>
                 <option value="3" class="op1">3 AM - 4 AM</option>
@@ -92,7 +92,7 @@
                 <option value="21" class="op1">9 PM - 10 PM</option>
                 <option value="22" class="op1">10 PM - 11 PM</option>
                 <option value="23" class="op1">11 PM - 12 AM</option>
-                <option value="24" class="op1">12 AM - 1 AM</option>
+                <option value="0" class="op1">12 AM - 1 AM</option>
                 <option value="1" class="op1">1 AM - 2 AM</option>
                 <option value="2" class="op1">2 AM - 3 AM</option>
                 <option value="3" class="op1">3 AM - 4 AM</option>
@@ -122,7 +122,7 @@
                 <option value="21" class="op1">9 PM - 10 PM</option>
                 <option value="22" class="op1">10 PM - 11 PM</option>
                 <option value="23" class="op1">11 PM - 12 AM</option>
-                <option value="24" class="op1">12 AM - 1 AM</option>
+                <option value="0" class="op1">12 AM - 1 AM</option>
                 <option value="1" class="op1">1 AM - 2 AM</option>
                 <option value="2" class="op1">2 AM - 3 AM</option>
                 <option value="3" class="op1">3 AM - 4 AM</option>
@@ -151,7 +151,7 @@
                 <option value="21" class="op1">9 PM - 10 PM</option>
                 <option value="22" class="op1">10 PM - 11 PM</option>
                 <option value="23" class="op1">11 PM - 12 AM</option>
-                <option value="24" class="op1">12 AM - 1 AM</option>
+                <option value="0" class="op1">12 AM - 1 AM</option>
                 <option value="1" class="op1">1 AM - 2 AM</option>
                 <option value="2" class="op1">2 AM - 3 AM</option>
                 <option value="3" class="op1">3 AM - 4 AM</option>
@@ -178,15 +178,16 @@
         <p id="drive">ALL IS WELL!!</p>
         <div id="another-square"></div>
 
-        <div id="splitSquare" onclick="addTime()">
+        <!-- <div id="splitSquare" onclick="addTime()"> -->
+        <div id="splitSquare">
             <h3 id="cirl">Set Alarm</h3>
         </div>
 
         <div class="vvvv">
-            Wake Up Time : <span id="set1"></span> <br>
-            Lunch Time : <span id="set2"></span> <br>
-            Nap Time : <span id="set3"></span><br>
-            Night Time : <span id="set4"></span><br>
+            Wake Up Time : <span class="set"></span> <br>
+            Lunch Time : <span class="set"></span> <br>
+            Nap Time : <span class="set"></span><br>
+            Night Time : <span class="set"></span><br>
         </div>
         <script src="index.js"></script>
 </body>

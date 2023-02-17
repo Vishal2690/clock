@@ -414,7 +414,7 @@
         background-image: linear-gradient(to left,#FC5EFF, #CB52F8, #6E54EC);
     }   
 }
-#splitSquare:hover h3 {
+/* #splitSquare:hover h3 {
     display: none
   }
   
@@ -423,8 +423,7 @@
   }
   #splitSquare:hover:before{
     font-size: 20px;
-    font-weight: bold;}
- 
+    font-weight: bold;}  */
     @media screen and (min-width:500px) and (max-width:1000px){
             #clock-pic img{
                 margin-left: 10px;
